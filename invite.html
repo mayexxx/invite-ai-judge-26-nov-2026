@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>An invitation for the Judge</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; margin: 0; }
+  body { color: #172d3b; background: #f4ead4; }
+  .card {
+    position: relative; width: 1024px; height: 1024px; overflow: hidden;
+    border: 3px solid #203b4a;
+    background-color: #f8f0dc;
+    background-image: radial-gradient(#987f5930 0.65px, transparent 0.8px), radial-gradient(#ffffff80 0.7px, transparent 0.9px);
+    background-size: 9px 9px, 13px 13px; background-position: 0 0, 4px 5px;
+    text-align: center;
+  }
+  .inner { position: absolute; inset: 17px; border: 1px solid #b7a784; pointer-events: none; }
+  .eyebrow { margin-top: 76px; font: 700 15px Georgia, serif; letter-spacing: 5px; color: #a06442; }
+  h1 { margin: 25px 0 0; font: 700 65px/1.05 Georgia, 'Times New Roman', serif; letter-spacing: 1px; }
+  .rule { width: 108px; height: 2px; margin: 29px auto 27px; background: #b78158; }
+  .message { font: 25px/1.7 Georgia, 'Times New Roman', serif; color: #243640; }
+  .message p { margin: 0; white-space: nowrap; }
+  .message p:first-child { font-size: 29px; font-weight: bold; }
+  .message p:last-child { margin-top: 9px; font-style: italic; }
+  svg { position: absolute; width: 760px; height: 440px; left: 129px; bottom: 41px; }
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="inner"></div>
+  <div class="eyebrow">A LITTLE NOTE FOR YOU</div>
+  <h1>YOU ARE INVITED!</h1>
+  <div class="rule"></div>
+  <div class="message">
+    <p>Come visit my house, Judge!</p>
+    <p>Free snacks, fast Wi-Fi, and zero bugs (mostly).</p>
+    <p>RSVP: Whenever you're ready to award first place.</p>
+  </div>
+  <svg viewBox="0 0 760 440" role="img" aria-label="A cozy cottage with glowing windows and a welcome mat">
+    <ellipse cx="380" cy="394" rx="335" ry="32" fill="#d8d5ae"/>
+    <circle cx="380" cy="210" r="183" fill="#ead9b8"/>
+    <path d="M140 367 Q117 326 142 284 Q166 326 153 370 M618 370 Q594 330 622 279 Q646 332 632 371" fill="#8da17b"/>
+    <path d="M162 375 Q154 329 181 315 Q195 345 184 376 M580 376 Q574 337 599 310 Q616 345 606 377" fill="#a5b28a"/>
+    <path d="M234 197 L380 85 L526 197 V367 H234 Z" fill="#dfad79" stroke="#354852" stroke-width="5"/>
+    <path d="M211 204 L380 70 L549 204 L535 218 L380 103 L225 218 Z" fill="#a75d47" stroke="#354852" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M468 132 V76 H498 V155" fill="#c17b5c" stroke="#354852" stroke-width="5"/>
+    <path d="M219 202 L380 76 L541 202" fill="none" stroke="#354852" stroke-width="5" stroke-linecap="round"/>
+    <rect x="267" y="237" width="68" height="77" rx="2" fill="#ffe59a" stroke="#354852" stroke-width="5"/>
+    <rect x="425" y="237" width="68" height="77" rx="2" fill="#ffe59a" stroke="#354852" stroke-width="5"/>
+    <path d="M301 238 V313 M268 275 H334 M459 238 V313 M426 275 H492" stroke="#805c48" stroke-width="4"/>
+    <path d="M349 367 V268 Q349 235 380 235 Q411 235 411 268 V367" fill="#7a5545" stroke="#354852" stroke-width="5"/>
+    <circle cx="397" cy="308" r="4" fill="#f1c66c"/>
+    <path d="M223 368 H537" stroke="#354852" stroke-width="5" stroke-linecap="round"/>
+    <path d="M333 382 H427 L442 408 H318 Z" fill="#b87c53" stroke="#72513f" stroke-width="2"/>
+    <text x="380" y="399" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" letter-spacing="1.3" fill="#fff2d6">WELCOME</text>
+    <path d="M103 377 Q115 358 127 377 M640 377 Q652 358 664 377" fill="none" stroke="#6f8b6b" stroke-width="4" stroke-linecap="round"/>
+  </svg>
+</main>
+</body>
+</html>
